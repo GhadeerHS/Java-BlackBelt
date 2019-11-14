@@ -17,11 +17,11 @@ import com.ghadeer.TVShows.services.UserService;
 import com.ghadeer.TVShows.validator.UserValidator;
 
 @Controller
-public class LogRegController {
+public class HomeController {
 	private final UserService uServ;
 	private final UserValidator uVal;
 	
-	public LogRegController(UserService uServ, UserValidator uVal) {
+	public HomeController(UserService uServ, UserValidator uVal) {
 		this.uServ = uServ;
 		this.uVal = uVal;
 	}
